@@ -3,8 +3,8 @@ python:
  - "2.7"
 script:
  - mkdir lib
- - pip install -t lib/ google-api-python-client
  - pip install -t lib/ oauth2client
+ - pip install --upgrade -t lib/ google-api-python-client
  - npm install -g bower
  - bower install
 before_deploy:
