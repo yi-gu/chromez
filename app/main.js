@@ -3,7 +3,7 @@ chrome.power.requestKeepAwake("display");
 onkeydown = e => {
 console.log(e);
   if (e.code == 'Escape')
-    webview.src = 'http://chromez-app.appspot.com'
+    webview.src = 'https://chromez-animations-dev.appspot.com'
   if (e.keyCode == 116) {
     chrome.runtime.restart(); // For kiosk mode.
     chrome.runtime.reload(); // For non-kiosk mode.
