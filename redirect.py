@@ -3,7 +3,7 @@ import logging
 import webapp2
 from google.appengine.api import urlfetch
 from google.appengine.api import app_identity
-from oauth2client.contrib.gce import AppAssertionCredentials
+from oauth2client.appengine import AppAssertionCredentials
 from httplib2 import Http
 import json
 

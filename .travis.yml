@@ -12,7 +12,7 @@ deploy:
   provider: gae
   skip_cleanup: true
   keyfile: client-secret.json
-  project: chromez-app
+  project: chromez-animations-dev
   config: app.yaml
   version: 1
   default: true
